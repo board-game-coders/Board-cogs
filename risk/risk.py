@@ -26,7 +26,7 @@ class Risk(commands.Cog):
         if ctx.channel.id in self.runningin:
             return await ctx.send('There is already a game running in this channel.')
         self.runningin.append(ctx.channel.id)
-        players = [ctx.message.author.id]
+        players = [ctx.message.author]
         channel = ctx.channel
         await ctx.send("Welcome!  How many players? (must be between 2 and 5)")
         i = 0
