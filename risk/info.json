@@ -1,6 +1,6 @@
 {
     "author" : ["Flame442 (Flame#2941)", "Neuro Assassin"],
-    "install_msg" : "Thanks for installing risk. Use `[p]risk` to playing!",
+    "install_msg" : "Thanks for installing risk. Use `[p]risk` to start playing!",
     "name" : "Risk",
     "short" : "Play a game of Risk.",
     "requirements" : ["pillow"],
